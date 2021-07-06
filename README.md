@@ -116,14 +116,17 @@ Post-training quantization is a conversion technique that can reduce model size 
 Air pencil is built with [Tiny Motion Trainer](https://experiments.withgoogle.com/tiny-motion-trainer "Tiny Motion Trainer"), it lets you train and test IMU based TFLite models in the browser.
 
 - Get the kit.
+ 
 ![Initial](/readme_images/challenge_kit.jpg)
 
 - Setup the pencil
+ 
 ![Initial](/readme_images/initial_setup.jpg)
 ![Initial](/readme_images/final_setup.jpg)
 
 
 - Connect the Arduino Nano to micro-usb. It will start blinking.
+ 
 ![Arduino Initial](/readme_images/intial_arduino.gif)
 
 - Intiailize the parameters for the motion capture. 
@@ -132,13 +135,16 @@ Air pencil is built with [Tiny Motion Trainer](https://experiments.withgoogle.co
 3. Delay = 0.3
 
 - Capture your data with at least 20 samples.
+ 
 ![Capture1](/readme_images/capture1.gif)
 ![Capture2](/readme_images/capture2.gif)
 
 - Train the model
+ 
 ![Train](/readme_images/training.gif)
 
 - Test using the same setup
+ 
 ![Test](/readme_images/testing.gif)
 
 - Download the quantized model
