@@ -17,4 +17,4 @@
 # specific language governing permissions and limitations
 # under the License.
 
-live-server --port=8181 --host="0.0.0.0" --root="web" --entry-file="index.html" --mount="/third_party:./third_party" --mount="/:./web" --watch="web/,third_party/"
+live-server --https=/usr/local/lib/node_modules/live-server-https --port=8181 --host="0.0.0.0" --root="web" --entry-file="index.html" --mount="/third_party:./third_party" --mount="/:./web" --watch="web/,third_party/"

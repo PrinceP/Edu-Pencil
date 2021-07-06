@@ -1,32 +1,23 @@
+# Air Pencil
+## _Learning by Doing_
 
-# FUI
-#### [Finger User Interface]
-### Control your devices with the wave of a finger.
 
-### Overview
-
-Since 2009, coders have created thousands of experiments using Chrome, Android, AI, WebVR, AR and more. We showcase these projects and a variety of helpful tools and resources to inspire a diverse community of makers to explore, create, and share what’s possible with these technologies.
-
-**FUI (Finger User Interface)** is a part of the TensorFlow Lite for Microcontroller Experiments, a collection of open source, interactive projects designed to demonstrate some fun ways to combine Arduino and TensorFlow Lite for Microcontrollers. 
+**EDU - PENCIL** is a part of the TensorFlow Lite for Microcontroller Experiments [Challenge](https://experiments.withgoogle.com/tfmicrochallenge), adding to a collection of open source, interactive projects designed to demonstrate some fun ways to combine Arduino and TensorFlow Lite for Microcontrollers. 
 
 These projects were built with the 
-[Arduino Sense 33 BLE](https://store.arduino.cc/usa/nano-33-ble-sense "Arduino Store"), [TensorFlow Lite for Microcontrollers](https://www.tensorflow.org/lite/microcontrollers "TFL4M"), standard web technologies ( HTML, CSS & Javascript ) and [p5.js](https://p5js.org/ "p5js").
 
-----
+- [Arduino Sense 33 BLE](https://store.arduino.cc/usa/nano-33-ble-sense "Arduino Store")
+- [TensorFlow Lite for Microcontrollers](https://www.tensorflow.org/lite/microcontrollers "TFL4M")
+- Standard web technologies ( HTML, CSS & Javascript ) and [p5.js](https://p5js.org/ "p5js") ✨
 
-### Experiment Description
-[Finger User Interface](https://experiments.withgoogle.com/finger-user-interface "FUI Google Experiment") or FUI (pronounced Foo-ey) lets you control connected devices with the wave of a finger.
-
-Other experiments to explore:
-
+**Other experiments to explore:**
 - [Air Snare](https://experiments.withgoogle.com/air-snare "Air Snare Google Experiment") lets you play the drums in the air.
 - [Tiny Motion Trainer](https://experiments.withgoogle.com/tiny-motion-trainer "Tiny Motion Trainer") lets you train and test IMU based TFLite models in the browser.
 - [Morning Mountain](https://experiments.withgoogle.com/visual-alarm-clock "Morning Mountain Google Experiment") lets you stop your alarm clock from ringing by striking a pose.
 - [Astrowand](https://experiments.withgoogle.com/astrowand "Astrowand Google Experiment") lets you draw shapes in the air to form constellations.
+- [Finger User Interface](https://experiments.withgoogle.com/finger-user-interface "FUI Google Experiment") or FUI (pronounced Foo-ey) lets you control connected devices with the wave of a finger.
 
-----
-
-### Tools
+## Tools
 
 - Linux, MacOS or Windows computer with [Chrome](https://www.google.com/chrome/?brand=WHAR&geo=US&gclid=Cj0KCQjw9_mDBhCGARIsAN3PaFNRBCVUxmhR1QPA2LHaoELEr9yc1KkSNQ-Jc9KVZd8Sq2ux5gR6mJsaAm_6EALw_wcB&gclsrc=aw.ds "Chrome") installed
 - TensorFlow Lite for Microcontroller Challenge Kit or [Arduino Nano BLE Sense 33](https://store.arduino.cc/usa/nano-33-ble-sense "Arduino Nano")
@@ -34,15 +25,11 @@ Other experiments to explore:
 - Rubberband
 - [Optional] Battery
 
-----
-
-#### Install and Run
+## Flashing Arduino Nano
 
 Flashing: Using the Arduino Nano Sense 33 BLE
 
 1. Install the [Arduino IDE ](https://www.arduino.cc/en/software "Arduino IDE")
-
-
 2. Setup Arduino board:
 -  Plug in the board
 - Install the board by navigating to Tools > Board > Boards Manager and search for  Arduino Mbed OS Nano Boards. Full instructions (including drivers required for Windows) [here.](https://www.arduino.cc/en/Guide/NANO33BLESense/ "Arduino Guide")
@@ -89,11 +76,11 @@ The board that comes with the TensorFlow Microcontroller Challenge Kit by SparkF
 
 ### FAQ & Common Errors
 
-**What exactly is being transferred when I “connect”?**<br/>
+**What exactly is being transferred when I “connect”?**
 When you’re connecting the board to your computer, a pre-trained TensorFlow Lite machine learning model gets transferred over BLE onto the device. The sketches that are uploaded to the Arduino include a common TensorFlow Lite for Microcontrollers Experiments model architecture. The different experiment websites change the behavior of the sketch by changing the model to one specifically made for the experience. 
 
 
-**What if I’m having issues connecting via bluetooth?**<br/>
+**What if I’m having issues connecting via bluetooth?**
 If you are having issues connecting try the following: 
 1. Make sure your browser (Chrome or Edge) supports Bluetooth and it is enabled.
 2. Make sure your device (laptop, phone, etc) supports Bluetooth and that it is working and enabled.
@@ -101,16 +88,14 @@ If you are having issues connecting try the following:
 
 *NOTE: If you’re using a managed device, like a computer from school or work, your device policy may prevent BLE pairing.*
 
-**My board isn’t showing up on my computer, even though it’s plugged in. What should I do?**<br/>
+**My board isn’t showing up on my computer, even though it’s plugged in. What should I do?**
 Try unplugging the Arduino power cable and then plug it back in to reset. Make sure you see the RGB LED blink red, green, blue in a sequential order.
 
-**The model isn’t getting my movements right. What do I do?**<br/>
+**The model isn’t getting my movements right. What do I do?**
 The way you move may be different from the data we used to pre-train the model. Different people move differently. That’s why we created [Tiny Motion Trainer](https://experiments.withgoogle.com/tiny-motion-trainer/view "Tiny Motion Trainer"), which lets you train a custom model based on the way you move. 
 
-**Do you have plans to support other boards?**<br/>
-We made these projects to work specifically with the Arduino Nano, and we currently don’t have plans to expand support. However, all of the code is open sourced, so you can remix or modify as needed. 
 
-**Where should I go from here if I want to make my own model or project?**<br/>
+**Where should I go from here if I want to make my own model or project?**
 You can create your own model in several different ways. Check out these links: 
 - [Experiments Collection](https://experiments.withgoogle.com/collection/tfliteformicrocontrollers/ "Experiments Collection") - Inspiration and more resources
 [Tiny Motion Trainer](https://experiments.withgoogle.com/tiny-motion-trainer/view "Tiny Motion Trainer") - Code-free motion trainer for microcontrollers
@@ -125,13 +110,79 @@ The IMU is a LSM9DS1. It is a 3-axis accelerometer, 3-axis gyroscope and 3-axis 
 Post-training quantization is a conversion technique that can reduce model size while also improving CPU and hardware accelerator latency, with little degradation in model accuracy. You can quantize an already-trained float TensorFlow model when you convert it to TensorFlow Lite format using the TensorFlow Lite Converter. Read more here: https://www.tensorflow.org/lite/performance/post_training_quantization
 
 
-----
 
-### Note
+## ML Model
 
-This is not an official Google product, but a collection of experiments that were developed at the Google Creative Lab. This is not a library or code repository that intends to evolve. Instead, it is a snapshot alluding to what’s possible at this moment in time.
+Air pencil is built with [Tiny Motion Trainer](https://experiments.withgoogle.com/tiny-motion-trainer "Tiny Motion Trainer"), it lets you train and test IMU based TFLite models in the browser.
 
-We encourage open sourcing projects as a way of learning from each other. Please respect our and other creators’ rights, including copyright and trademark rights when present, when sharing these works and creating derivative work. If you want more info on Google's policy, you can find that [here.](https://about.google/brand-resource-center/ "Google Brand Resource Center")
+- Get the kit.
+![Initial](/readme_images/challenge_kit.jpg)
 
-----
+- Setup the pencil
+![Initial](/readme_images/initial_setup.jpg)
+![Initial](/readme_images/final_setup.jpg)
 
+
+- Connect the Arduino Nano to micro-usb. It will start blinking.
+![Arduino Initial](/readme_images/intial_arduino.gif)
+
+- Intiailize the parameters for the motion capture. 
+1. Capturing threshold = 0.2 
+2. Number of samples = 30
+3. Delay = 0.3
+
+- Capture your data with at least 20 samples.
+![Capture1](/readme_images/capture1.gif)
+![Capture2](/readme_images/capture2.gif)
+
+- Train the model
+![Train](/readme_images/training.gif)
+
+- Test using the same setup
+![Test](/readme_images/testing.gif)
+
+- Download the quantized model
+
+- Replace the model and its parameters in sketch.js file.
+
+## Installation
+
+Air Pencil requires [Node.js](https://nodejs.org/) v10+ to run.
+You need live-server-https, python2 or 3 installed
+```sh
+cd Edu-Pencil
+npm install
+sh serve.sh
+```
+Then go to localhost:8181 in your browser and follow instructions
+
+
+
+## License
+
+MIT
+
+**Free Software**
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
+   [dill]: <https://github.com/joemccann/dillinger>
+   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
+   [john gruber]: <http://daringfireball.net>
+   [df1]: <http://daringfireball.net/projects/markdown/>
+   [markdown-it]: <https://github.com/markdown-it/markdown-it>
+   [Ace Editor]: <http://ace.ajax.org>
+   [node.js]: <http://nodejs.org>
+   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
+   [jQuery]: <http://jquery.com>
+   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
+   [express]: <http://expressjs.com>
+   [AngularJS]: <http://angularjs.org>
+   [Gulp]: <http://gulpjs.com>
+
+   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
+   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
+   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
+   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
+   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
+   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>

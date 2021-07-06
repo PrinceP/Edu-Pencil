@@ -656,6 +656,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
+live-server-https@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/live-server-https/-/live-server-https-0.0.2.tgz#98d4361b1af94021fc36423712fa8142e7fe8e6f"
+  integrity sha1-mNQ2Gxr5QCH8NkI3EvqBQuf+jm8=
+
 live-server@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/live-server/-/live-server-1.2.1.tgz#670630dd409d22fe9c513ab1c1894686c757153e"
