@@ -2,7 +2,7 @@
 ## _Learning by Doing_
 
 
-**EDU - PENCIL** is a part of the TensorFlow Lite for Microcontroller Experiments [Challenge](https://experiments.withgoogle.com/tfmicrochallenge), adding to a collection of open source, interactive projects designed to demonstrate some fun ways to combine Arduino and TensorFlow Lite for Microcontrollers. 
+**AIR PENCIL** is a part of the TensorFlow Lite for Microcontroller Experiments [Challenge](https://experiments.withgoogle.com/tfmicrochallenge), adding to a collection of open source, interactive projects designed to demonstrate some fun ways to combine Arduino and TensorFlow Lite for Microcontrollers. 
 
 These projects were built with the 
 
