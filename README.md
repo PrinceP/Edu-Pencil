@@ -1,6 +1,9 @@
 # Air Pencil
 ## _Learning by Doing_
 
+Checkout the 
+[demo](https://www.youtube.com/watch?v=AUvp1d8GgXE "Air Pencil")
+
 
 **AIR PENCIL** is a part of the TensorFlow Lite for Microcontroller Experiments [Challenge](https://experiments.withgoogle.com/tfmicrochallenge), adding to a collection of open source, interactive projects designed to demonstrate some fun ways to combine Arduino and TensorFlow Lite for Microcontrollers. 
 
