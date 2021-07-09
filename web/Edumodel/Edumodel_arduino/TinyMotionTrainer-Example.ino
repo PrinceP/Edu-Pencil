@@ -44,8 +44,8 @@
 
 // Values from Tiny Motion Trainer
 #define MOTION_THRESHOLD 0.2
-#define CAPTURE_DELAY 300 // This is now in milliseconds
-#define NUM_SAMPLES 30
+#define CAPTURE_DELAY 500 // This is now in milliseconds
+#define NUM_SAMPLES 50
 
 // Array to map gesture index to a name
 const char *GESTURES[] = {

@@ -160,7 +160,7 @@ cd Edu-Pencil
 npm install
 sh serve.sh
 ```
-Then go to localhost:8181 in your browser and follow instructions
+Then go to https://localhost:8181 in your browser and follow instructions
 
 
 
