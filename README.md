@@ -137,18 +137,20 @@ Air pencil is built with [Tiny Motion Trainer](https://experiments.withgoogle.co
 2. Number of samples = 30
 3. Delay = 0.3
 
-- Capture your data with at least 20 samples.
+- Capture all the data with at least 20 samples.
  
-![Capture1](/readme_images/capture1.gif)
-![Capture2](/readme_images/capture2.gif)
 
-- Train the model
- 
-![Train](/readme_images/training.gif)
+![Capture1.png](/readme_images/capture2.gif)                                                               | ![Result.png](/readme_images/capture1.gif)
+:------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------:
+**Gesture  /** : *A forward slant gesture training* | ***Captured dataset***
 
-- Test using the same setup
- 
-![Test](/readme_images/testing.gif)
+
+
+- Training and Testing
+
+![Train.png](/readme_images/training.gif)                                                               | ![Test.png](/readme_images/testing.gif)
+:------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------:
+**Train the model** | **Test using the same setup**
 
 - Download the quantized model
 
@@ -171,7 +173,6 @@ Then go to https://localhost:8181 in your browser and follow instructions
 
 MIT
 
-**Free Software**
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
